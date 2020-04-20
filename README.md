@@ -6,15 +6,30 @@
 
 - 无name或者email
 
-判断email与name属性是否存在，并且不为空字符串
+判断email与name属性是否存在，并且不为空字符串。
 
 ![无name或者email](https://img.mukewang.com/climg/5d5e477f0001e9eb05540262.jpg)
+
+```
+{
+  code: 404,
+  msg: 'name或email不得为空'
+}
+```
+
 
 - header中无admin或者role不等于admin
 
 koa侧判断role属性是否存在，是否是admin，不是，则返回status 401
 
 ![header中无admin或者role不等于admin](https://img.mukewang.com/climg/5d5e47930001d75205540322.jpg)
+
+```
+{
+  code: 401,
+  msg: 'unauthorized post'
+}
+```
 
 - 正常请求
 
