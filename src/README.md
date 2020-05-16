@@ -36,6 +36,7 @@
 > const helmet = require('koa-helmet')
 > app.use(helmet())
 
+通过增加如Strict-Transport-Security, X-Frame-Options, X-Frame-Options等HTTP头提高Express应用程序的安全性。
 [koa-helmet](https://www.npmjs.com/package/koa-helmet)
 
 
