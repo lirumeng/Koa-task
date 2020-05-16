@@ -35,5 +35,5 @@ const config = {
         path: true,
     },
 }
-console.log(config)
+
 module.exports = config
