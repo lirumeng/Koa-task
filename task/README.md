@@ -24,3 +24,8 @@
 
 #### 配置文件热加载
 > npx nodemon --exec babel-node ./src/index.js
+
+
+
+### 调试webpack配置
+> npm run webpack:debug
