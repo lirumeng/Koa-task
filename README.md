@@ -1,4 +1,12 @@
 # Koa框架开发RESTful接口
+
+### 运行
+> node index.js
+
+运行项目后，打开接口测试工具Postman，测试接口
+> localhost:3001/api/user
+
+
 ### 需求
 通过header里面传递一个role属性admin，使用post请求，发送给koa这边的`/api/user`接口json数据为`{name: "imooc", email: "imooc@test.com"}`。
 
