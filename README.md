@@ -44,3 +44,16 @@ koa侧判断role属性是否存在，是否是admin，不是，则返回status 4
 返回用户上传的数据，封装到data对象中，给一个code： 200，message： '上传成功'
 
 ![正常请求](https://img.mukewang.com/climg/5d5e47ab0001dce005540349.jpg)
+
+
+
+
+****
+使用`npm-check-updates`检查更新依赖包
+> npm install -g npm-check-updates
+
+ncu检查哪些包需更新
+> ncu
+
+更新依赖包
+> ncu -u
