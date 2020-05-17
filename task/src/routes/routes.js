@@ -1,7 +1,7 @@
 // 合并路由
-const combineRouters = require('koa-combine-routers')
+import combineRouters from 'koa-combine-routers'
 
-const aroutes = require('./aRouter')
-const broutes = require('./bRouter')
+import aroutes from './aRouter'
+import broutes from './bRouter'
 
 module.exports = combineRouters(aroutes, broutes)

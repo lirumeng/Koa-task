@@ -1,9 +1,3 @@
-// ES6语法
-// const Koa = require('koa')
-// const path = require('path')
-// const helmet = require('koa-helmet')
-// const statics = require('koa-static')
-// const router = require('./routes/routes')
 import Koa from 'koa'
 import path from 'path'
 import helmet from 'koa-helmet'
