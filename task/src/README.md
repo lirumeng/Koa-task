@@ -43,17 +43,19 @@
 ****
 
 ### 运行
-> src/index.js
+
+编译：
+> npm run build
+
+开发：
+> npm run dev
+
+清除dist文件
+> npm run clean
 
 #### 成功状态
 浏览器请求
-> http://localhost:3000/a
+> http://localhost:3000/demo
 
 返回
-> {"msg":"hello from a"}
-
-浏览器请求
-> http://localhost:3000/b
-
-返回
-> {"msg":"hello from b"}
+> {"msg":"body message"}
